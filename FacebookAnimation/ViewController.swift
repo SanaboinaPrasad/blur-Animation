@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     }
     fileprivate func setupVisualBlurEffect(){
 //        let blurEffect = UIBlurEffect(style: .regular)
-        view.addSubview(visualEffect)
+        view.addSubview(visualBlurEffect)
         visualBlurEffect .frame = view.frame
         
     }
